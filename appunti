@@ -1,0 +1,18 @@
+11/01/17 
+Ricomincio da capo il progetto
+0-a loginpage manca solo il modal che mi dice che tipo di errore ho fatto (user/pw errata)
+1-dropdown menu delle serate sistemato
+2-Cliccando sul bottone freccia si viene reindirizzati alla pagina dell'evento con le prenotazioni
+3-quando clicco sul bottone + della pagina serata mi apre il modal prenotazioni
+
+12/01/17
+1-loginpage.php finita. css deprecato, in uso indexstyle - SISTEMARE GRAFICA
+
+13/01/17
+1-sistemati tutti e due i modal sulla index - SISTEMARE GRAFICA
+
+15/01/17
+1-dopo un lungo pomeriggio a perdere tempo a cercare di capire cose, ho deciso che la scelta più rapida e indolore è:
+    a- generare tramite codice ogni bottone sulla serata in btn warning senza alcun click associato
+    b- interrogare il db e cercare le assegnazioni, per poi recuperare il bottone di riferimento e impostare la classe in btn info e inserire un evento onclick
+2-se mi loggo come utente posso solo visualizzare
